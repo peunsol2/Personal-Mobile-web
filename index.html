@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>KORAIL</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="app_icon.png">
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=East+Sea+Dokdo&family=Nanum+Gothic+Coding:wght@400;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Song+Myung&display=swap"
+        rel="stylesheet">
+    <script src="common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="common/js/jquery-1.8.3.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="common/js/gnb.js"></script>
+    <script src="common/js/familysite.js"></script>
+    <script src="main.js/aos.js"></script>
+    <script src="mainjs/main.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="header_inner">
+                <div class="header_box">
+                    <h1 id="logo"><a href="index.html"><img src="common/images/header_logo.png" alt="로고이미지"></a> </h1>
+                    <span class="gnb_icon"><a href="javascript:void(0)"><img src="common/images/gnb_bar.png"
+                                alt="메뉴아이콘"></a></span>
+                </div>
+                <div class="gnb_bg"></div>
+                <nav id="gnb">
+                    <div class="gnb_header">
+                        <span class="gnb_logo"><a href="index.html">로고이미지</a></span>
+                        <span class="gnb_search"><a href="javascript:void(0);">검색버튼</a></span>
+                        <div class="search_box">
+                            <form action="#" class="search">
+                                <fieldset>
+                                    <legend class="hidden">서치박스</legend>
+                                    <div class="search_bg"><input type="text"></div>
+                                    <a href="#" class="down_search"><img src="common/images/search_move_btn.png"
+                                            alt="화살표 아이콘"></a>
+
+                                </fieldset>
+                            </form>
+                        </div>
+                        <span class="close_btn"><a href="javascript:void(0);">닫기버튼</a></span>
+                    </div>
+                    <ul class="main_gnb">
+                        <li><a href="javascript:void(0);" class="depth01">코레일소개</a>
+                            <ul class="sub_gnb">
+                                <li><a href="sub1/sub1_1.html">공사소개</a></li>
+                                <li><a href="#">인재채용</a></li>
+                                <li><a href="#">공지사항</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:void(0);" class="depth01">정보공개</a>
+                            <ul class="sub_gnb">
+                                <li><a href="sub2/sub2_1.html">정보공개제도</a></li>
+                                <li><a href="#">사전정보공표/사업실명제</a></li>
+                                <li><a href="#">자료실</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:void(0);" class="depth01">업무지원</a>
+                            <ul class="sub_gnb">
+                                <li><a href="#">사업분야</a></li>
+                                <li><a href="https://win-win.korail.com/">철도상생플랫폼</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:void(0);" class="depth01">승차권이용</a>
+                            <ul class="sub_gnb">
+                                <li><a href="#">기차역/노선도</a></li>
+                                <li><a href="#">자유여행</a></li>
+                                <li><a href="#">패키지 상품</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:void(0);" class="depth01">종합안내</a>
+                            <ul class="sub_gnb">
+                                <li><a href="#">할인 및 운임안내</a></li>
+                                <li><a href="#">코레일 멤버십</a></li>
+                                <li><a href="#">고객 서비스</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                </nav>
+            </div>
+        </header>
+        <div id="visual">
+            <div class="visual_bg"><img src="images/visual.png" alt="메타세콰이어길 배경이미지"></div>
+            <div class="visual_txt"><img src="images/visual_txt.png" alt="120년역사의 코레일"></div>
+        </div>
+    </div>
+    <section id="container">
+        <h2 class="hidden">컨텐츠 영역 </h2>
+        <article id="quick_box">
+            <h3 class="hidden">빠른예매 영역</h3>
+            <div class="button_wrap">
+                <div class="btn_ticket"><a href="#"><img src="images/quick_btn01.png" alt="승차권예매버튼"></a></div>
+                <div class="btn_search"><a href="#"><img src="images/quick_btn02.png" alt="승차권조회버튼"></a></div>
+                <div class="btn_trip"><a href="#"><img src="images/quick_btn03.png" alt="기차여행검색버튼"></a></div>
+            </div>
+        </article>
+        <article id="pop">
+            <h3 class="hidden">광고이미지영역</h3>
+            <div class="pop_slide swiper-container mySwiper02">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide"><a href="#"><img src="images/pop_img01.png" alt="부정승차권판매금지 이미지"></a></li>
+                    <li class="swiper-slide"><a href="#"><img src="images/pop_img03.png" alt="네이버와지도앱 승차권구매 이미지"></a>
+                    </li>
+                    <li class="swiper-slide"><a href="#"><img src="images/pop_img02.png" alt="한국철도기부챌린지 이미지"></a></li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+        </article>
+        <article id="news_box">
+            <h3 class="ct_tit">KORAIL NEWS</h3>
+            <div class="notice swiper-container mySwiper03">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <p class="notice_type">공지</p>
+                            <p class="notice_name">자유석 운영열차<br>조정시행</p>
+                            <p class="notice_con">자유석 운영을 아래와 같이 조정하오니 참고하시기 바랍니다.</p>
+                            <p class="list_date">21.05.24 (월)~ <img src="images/list_date_icon.png" alt="더보기 플러스 아이콘">
+                            </p>
+                        </a>
+                    </li>
+                    <li class="swiper-slide"><a href="#">
+                            <p class="notice_type">공지</p>
+                            <p class="notice_name">경북선 운행중지<br>알림</p>
+                            <p class="notice_con">경북선 수로박스 신설공사 관련 대체버스 운행을 알려드립니다.</p>
+                            <p class="list_date">21.05.01 (토)~ <img src="images/list_date_icon.png" alt="더보기 플러스 아이콘">
+                            </p>
+                        </a></li>
+                    <li class="swiper-slide"><a href="#">
+                            <p class="notice_type">공지</p>
+                            <p class="notice_name">우리은행 서비스<br>일시중지 알림</p>
+                            <p class="notice_con">전산시스템 정기정검으로 인해 결제 서비스가 일시중지 됩니다.</p>
+                            <p class="list_date">21.05.09(일) <img src="images/list_date_icon.png" alt="더보기 플러스 아이콘">
+                            </p>
+                        </a></li>
+                    <li class="swiper-slide"><a href="#">
+                            <p class="notice_type">채용공지</p>
+                            <p class="notice_name">한국철도공사 위촉<br>연구원 공개모집</p>
+                            <p class="notice_con">국가R&D과제를 수행할 위촉연구원을 채용합니다.</p>
+                            <p class="list_date">21.05.11(화) <img src="images/list_date_icon.png" alt="더보기 플러스 아이콘">
+                            </p>
+                        </a></li>
+                    <li class="swiper-slide"><a href="#">
+                            <p class="notice_type">채용공지</p>
+                            <p class="notice_name">한국철도공사 <br>임원공개모집</p>
+                            <p class="notice_con">한국철도공사에서 전문성과 역량을 갖춘 임원을 모십니다.</p>
+                            <p class="list_date">21.03.31(수) <img src="images/list_date_icon.png" alt="더보기 플러스 아이콘">
+                            </p>
+                        </a></li>
+                    <li class="swiper-slide"><a href="#">
+                            <p class="notice_type">채용공지</p>
+                            <p class="notice_name">2021상반기 신입<br>사원 공개모집</p>
+                            <p class="notice_con">신입사원 및 채용형 인턴을 다음과 같이 모집합니다.</p>
+                            <p class="list_date">채용공고참고 <img src="images/list_date_icon.png" alt="더보기 플러스 아이콘"> </p>
+                        </a></li>
+                </ul>
+
+            </div>
+        </article>
+        <article id="company_box">
+            <h3 class="hidden">회사 및 채용 영역</h3>
+            <div class="company" data-aos="fade-right" data-aos-easing="nomal" data-aos-duration="1500">
+                <img src="images/company_img.png" alt="회사소개이미지">
+                <p><a href="#">
+                        <span class="company_tit">COMPANY</span><br>
+                        코레일은<br>대한민국을<br>이끌어갑니다.
+                        <span class="more_btn">VIEW MORE</span>
+                    </a>
+                </p>
+            </div>
+            <div class="recruit" data-aos="fade-left"  data-aos-easing="nomal" data-aos-duration="1500">
+                <img src="images/recruit_img.png" alt="채용이미지">
+                <p><a href="#">
+                        <span class="company_tit">RECRUIT</span><br>
+                        코레일은<br>당신의 미래와<br>함께합니다.
+                        <span class="more_btn">VIEW MORE</span>
+                    </a>
+                </p>
+            </div>
+        </article>
+        <article id="sns_box">
+            <h3 class="ct_tit">KORAIL SNS</h3>
+            <ul>
+                <li><a href="#"><img src="images/sns_icon_facebook.png" alt="facebook아이콘"></a></li>
+                <li><a href="#"><img src="images/sns_icon_insta.png" alt="insta아이콘"></a></li>
+                <li><a href="#"><img src="images/sns_icon_youtube2.png" alt="youtube아이콘"></a></li>
+                <li><a href="#"><img src="images/sns_icon_twitter.png" alt="twitter아이콘"></a></li>
+                <li><a href="#"><img src="images/sns_icon_blog.png" alt="blog아이콘"></a></li>
+            </ul>
+        </article>
+    </section>
+    <footer id="footer">
+        <div class="footer_inner">
+            <h2 class="hidden">footer 영역</h2>
+            <div class="footer_btn">
+                <ul>
+                    <li><a href="#">법적고지</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">저작권정책</a></li>
+                    <li><a href="map/map.html">찾아오시는길</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer_logo"><a href="index.html"><img src="images/footer_logo.png" alt="푸터로고이미지"></a></div>
+            <address class="footer_address">
+                한국철도공사 34618 대전광역시 동구 중앙로 240<br>
+                대표전화:1544-7788 팩스번호: 02-361-8385<br>
+                사업자등록: 314-82-10024<br>통신판매업신고: 대전 동구 0233호
+            </address>
+            <div class="footer_familysite">
+                <a href="#" class="arrow">Family Site</a>
+                <ul class="family_site">
+                    <li><a href="http://www.ktxmagazine.com/pages/story/WA/index?entrId=ktx&last=Y"
+                            target="_blank">KTX매거진</a></li>
+                    <li><a href="https://win-win.korail.com/" target="_blank">철도상생플랫폼</a></li>
+                    <li><a href="http://www.korailwebzine.com/pages/story/MP/index?entrId=korail&last=Y"
+                            target="_blank">한국철도사보</a></li>
+                    <li><a href="https://logis.korail.go.kr/index.do" target="_blank">물류정보서비스</a></li>
+                    <li><a href="https://info.korail.com/mbs/www/subview.jsp?id=www_030502000000"
+                            target="_blank">윤리경영</a></li>
+                    <li><a href="https://ebid.korail.com/" target="_blank">전자조달시스템</a></li>
+                    <li><a href="http://railroadmuseum.co.kr/" target="_blank">철도박물관</a></li>
+                </ul>
+            </div>
+            <div class="footer_pc"><a href="http://gksqlcch.cafe24.com">PC버전</a></div>
+        </div>
+    </footer>
+    <script>
+        var swiper = new Swiper(".mySwiper02", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true
+            },
+            initialSlide: 1,
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper03", {
+            slidesPerView: 1.5,
+        });
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

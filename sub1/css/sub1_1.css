@@ -1,0 +1,87 @@
+/* font-family: 'East Sea Dokdo', cursive;
+font-family: 'Gaegu', cursive;
+font-family: 'Jua', sans-serif;
+font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Yeon Sung', cursive; */
+
+/* #container */
+#container{positon:relative; z-index: 50; width: 100%;font-family: 'Noto Sans KR', sans-serif;}
+/* #container .ct_top_box*/
+.ct_top_box{position: relative; width: 100%; height:300px;background-color: #0E45A8;}
+.ct_top_box>h3.ct_top_tit{width: 100%; padding-top: 25%;  font-size: 9.3vw; font-weight: bold; text-align: left; text-indent: 5%; color: #fff;}
+.ct_top_box>ul{width: 100%; padding-left: 4%; margin-top: 7%; box-sizing: border-box;}
+.ct_top_box>ul>li{float: left; width: 30%;}
+.ct_top_box>ul>li>a{display: block;width: 100%;font-weight: bold;  font-size: 6.6vw; color: #5785D9; text-align: center;}
+.ct_top_box>ul>li.current>a{color: #fff;}
+
+/* #container .intro_box */
+.intro_box{width: 100%; padding-top:15%;}
+.ct_tit{width: 50%; font-size: 7.5vw; text-align: center; font-weight: bold; margin:0 auto;color: #000;} 
+.intro_box>p.intro_txt01{padding-top: 7%; width: 90%; margin:0 auto;font-size:6vw; font-weight: 500;text-align: center; color: #0F367D;}
+.intro_box>p.intro_txt02{padding-top: 7%; width: 90%; margin:0 auto; font-size:5.5vw; text-align: left;}
+.intro_box>.intro_img{width: 100%; padding-top: 15%;}
+.intro_box>.intro_img>img{display: block; width: 100%;}
+
+/* #container .ceo_box */
+.ceo_box{width: 100%; padding-top: 15%;}
+.ceo_box>.ceo_wrap{width: 95%; margin: 0 auto; margin-top: 7%; padding-bottom: 10%; border: 2px solid #9ABBD9; border-radius: 30px;}
+.ceo_box>.ceo_wrap>figure{float:left; width: 50%; text-align: center; padding-top: 7%;}
+.ceo_box>.ceo_wrap>figure>img{display: block; width: 80%; margin: 0 auto;}
+.ceo_box>.ceo_wrap>figure>img>figcaption{ font-size: 5vw;}
+.ceo_box>.ceo_wrap>p.ceo_tit{float: left;width:48%; font-size: 9vw;font-family: 'East Sea Dokdo'; color: #02096A; text-shadow: 2px 2px 2px rgb(204, 204, 204); text-align: center; padding-top: 15%;}
+.ceo_box>.ceo_wrap>p.ceo_txt{clear: both; width: 95%; margin: 0 auto; padding-top: 7%; font-size: 5vw;}
+
+/* #container .company_box */
+       /* company_wrap> swiper */
+
+       .swiper-container {
+        width: 100%;
+        height: 100%;
+        background: rgba(206, 236, 255, 0.18);
+      }
+
+      .swiper-slide {
+        font-size: 18px;
+        color: #444;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 20px 40px;
+      }
+
+      .parallax-bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 130%;
+        height: 100%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .swiper-slide .title {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      .swiper-slide .subtitle {
+        color: #0B2A56;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .swiper-slide .text {
+        font-size: 15px;
+        max-width: 400px;
+        text-align: center;
+        line-height: 1.6;
+      }
+      .swiper-slide .text>p>span{
+        display: block; font-weight: bold; font-size: 17px; text-align: center;
+      }
+.company_box{width: 100%; height:550px; margin-top:30px; background-image: url(../images/company_bg.png);background-repeat: no-repeat; background-position: bottom center; background-size: cover;}

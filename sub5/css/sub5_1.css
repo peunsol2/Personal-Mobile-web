@@ -1,0 +1,15 @@
+/* font-family: 'East Sea Dokdo', cursive;
+font-family: 'Gaegu', cursive;
+font-family: 'Jua', sans-serif;
+font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Yeon Sung', cursive; */
+/* #container */
+#container{width: 100%;font-family: 'Noto Sans KR', sans-serif;}
+/* #container .ct_top_box*/
+.ct_top_box{position: relative; width: 100%; height:300px;background-color: #0E45A8;}
+.ct_top_box>h3.ct_top_tit{width: 100%; padding-top: 25%;  font-size: 9.3vw; font-weight: bold; text-align: left; text-indent: 5%; color: #fff;}
+.ct_top_box>ul{width: 100%; padding-left: 4%; margin-top: 7%; box-sizing: border-box;}
+.ct_top_box>ul>li{float: left; width: 30%;}
+.ct_top_box>ul>li>a{display: block;width: 100%;font-weight: bold;  font-size: 6.6vw; color: #5785D9; text-align: center;}
+.ct_top_box>ul>li.current>a{color: #fff;}
